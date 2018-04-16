@@ -1,6 +1,6 @@
 /* Create basic table layout */
-/* 
-TEMP Notes: 
+/*
+TEMP Notes:
 - Looking into geographic coords. Easier just to split in two.
 - Defaulted to a varchar, size 20 -- Needs reviewing.
 - Using not null on most things. This hasn't been checked methodically
@@ -108,4 +108,3 @@ CREATE TABLE describes (
   FOREIGN KEY (order_id) REFERENCES Purchase(order_id),
   FOREIGN KEY (item_id) REFERENCES Merchandise(item_id) );
 
-  
