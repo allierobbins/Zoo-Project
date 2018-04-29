@@ -39,25 +39,25 @@
 
 <section>
 
-        <form name="htmlform" method="post" action="html_form_send.php">
+        <form onSubmit ="members.php" method="post">
 <table width="750px">
     <h1>Member Form</h1>
 </tr>
 <tr>
  <td valign="top">
-  <label for="first_name">First Name *</label>
+  <label for="Date">Date *</label>
  </td>
  <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
+  <input  type="text" name="Date" maxlength="50" size="30">
  </td>
 </tr>
 
 <tr>
  <td valign="top"">
-  <label for="last_name">Last Name *</label>
+  <label for="name"> Name *</label>
  </td>
  <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
+  <input  type="text" name="name" maxlength="50" size="30">
  </td>
 </tr>
 <tr>
@@ -77,15 +77,18 @@
   <input  type="text" name="telephone" maxlength="30" size="30">
  </td>
 </tr>
-<tr>
+ <tr>
  <td valign="top">
-  <label for="additional">Names of additional members</label>
+  <label for="address">Address*</label>
  </td>
  <td valign="top">
-  <textarea  name="additional" maxlength="30" cols="25" rows="6"></textarea>
+  <input  type="text" name="Address" maxlength="30" size="30">
  </td>
-
 </tr>
+
+
+
+
 <tr>
  <td colspan="2" style="text-align:center">
   <input type="submit" value="Submit"> <a href="http://www.freecontactform.com/html_form.php"></a>
@@ -94,40 +97,20 @@
 </table>
 </form>
 </section>
-
-
-
         <section class = "table">
             <div class ="container">
                <h1>Table of members</h1>
             <table style="width:75%">
                 <tr>
                     <th>Member ID</th>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
+                    <th>Date</th>
+                    <th>Name</th>
                     <th>address</th>
                     <th>Phone number</th>
                     <th>Email</th>
-                    <th>Additional Members</td>
-                </tr>
-                <tr>
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
-                </tr>
-                <tr>
-                    <td>Eve</td>
-                    <td>Jackson</td>
-                    <td>94</td>
                 </tr>
             </table>
-
-
-            </div>
-
-
-
-
+          </div>
         </section>
 
 

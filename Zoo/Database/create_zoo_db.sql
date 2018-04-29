@@ -48,6 +48,10 @@ CREATE TABLE Animal (
 CREATE TABLE Membership (
   member_id INT not null,
   start_date DATE not null,
+  mem_name VARCHAR(20) not null,
+  mem_address VARCHAR(20) not null,
+  mem_email VARCHAR(20) not null,
+  mem_phone INT not null
   member_lvl varchar(20) not null,
   vis_id INT not null,
   PRIMARY KEY (member_id) );
