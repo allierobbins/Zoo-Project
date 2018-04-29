@@ -12,8 +12,35 @@ EMPLOYEES
 
 /*============
 MEMBERSHIP
-============*/
+==============*/
+table, th, td {
+    border: 1px solid black;
+}
 
+h1{
+    text-align: center;
+}
+
+form {
+margin: 0 auto;
+width:750px;
+}
+
+table {
+margin: 0 auto;
+width:750px;
+}
+
+
+
+th, td {
+    padding: 15px;
+}
+
+
+/*============
+THEME
+============*/
 .table-values {
 	padding: 10% 0px 15% 0px;
 }
