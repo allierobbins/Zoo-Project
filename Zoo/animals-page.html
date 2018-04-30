@@ -1,55 +1,72 @@
-<!doctype html>
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 
 
-        <title>Animals</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/zooProject-style.css">
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body>
-
-
-        <section class="membership-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="text-content">
-                  <h2>Animals</h2>
-                  <div class="line-dec"></div>
-                  <span>All about the animals</span>
-                </div>
-              </div>
+       <p>&nbsp;</p>
+<section class="membership-section">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="text-content">
+    <h2>Animal Profiles!</h2>
+<div class="line-dec">&nbsp;</div>
+Come learn about our furry friends!</div>
+</div>
+</div>
+</div>
+</section>
+    <section><form action="animals.php" method="post">Search Criteria:
+        <table width="750px">
+        <tbody>
+            <tr>
+            <td valign="top"><label for="com_name">Animal Type</label></td>
+            <td valign="top"><input maxlength="50" name="com_name" size="30" type="text" /></td>
+            </tr>
+            <tr>
+            <td valign="top"><label for="a_name"> Name</label></td>
+            <td valign="top"><input maxlength="50" name="a_name" size="30" type="text" /></td>
+            </tr>
+            <tr>
+            <td valign="center"><label for="a_gender"> Gender </label></td>
+            <td valign="top"><input maxlength="30" name="a_gender" size="30" type="text" /></td>
+            </tr>
+            <tr>
+            <td style="text-align: center;" colspan="2"><input type="submit" value="Submit" /></td>
+            </tr>
+        </tbody>
+        </table>
+    </form></section>
+    <section class="table">
+        <div class="container">
+        <h1>Animal Results</h1>
+            <table style="width: 100%;">
+            <tbody>
+                <tr>
+                <th> Animal Name </th>
+                <th> Animal Type </th>
+                <th> Scientific Name </th>
+                <th> Location </th>
+                <th> Age </th>
+                <th> Diet Type </th>
+                </tr>
+            </tbody>
+            </table>
             </div>
-          </div>
-        </section>
-
-
-        <section class="send-to-home">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="back-to-home">
-                  <div class="primary-button">
-                    <a href="index.html">Go to homepage</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+    </section>
+<section class="send-to-home">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="back-to-home">
+    <div class="primary-button"><a href="index.html">Go to homepage</a></div>
+    </div>
+    </div>
+    </div>
+    </div>
+ </section>
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
