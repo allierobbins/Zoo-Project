@@ -45,7 +45,7 @@ CREATE TABLE Animal (
   FOREIGN KEY (diet_type) REFERENCES Diet(diet_type),
   FOREIGN KEY (enclosure_id) REFERENCES Enclosure(enclosure_id) );
 
-CREATE TABLE Membership (
+$msq = CREATE TABLE Membership (
   member_id INT not null,
   start_date DATE not null,
   mem_name VARCHAR(20) not null,
